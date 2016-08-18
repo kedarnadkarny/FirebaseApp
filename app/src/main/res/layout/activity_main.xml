@@ -34,4 +34,32 @@
         android:layout_centerHorizontal="true"
         android:hint="Value" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retrieve"
+        android:id="@+id/buttonRetrieve"
+        android:layout_below="@+id/sendData"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RETRIEVE LISTVIEW"
+        android:id="@+id/listViewButton"
+        android:layout_below="@+id/buttonRetrieve"
+        android:layout_alignLeft="@+id/buttonRetrieve"
+        android:layout_alignStart="@+id/buttonRetrieve"
+        android:layout_alignRight="@+id/buttonRetrieve"
+        android:layout_alignEnd="@+id/buttonRetrieve" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Activity"
+        android:id="@+id/LoginActivityBtn"
+        android:layout_below="@+id/listViewButton"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
