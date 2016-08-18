@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Firebase.setAndroidContext(this);
 
-        mRef = new Firebase("https://fireapp-ec4de.firebaseio.com/Users");
+        mRef = new Firebase("YOUR_DATABASE_STRING_IN_FIREBASE_APP");
         mSendData = (Button) findViewById(R.id.sendData);
         mValueField = (EditText) findViewById(R.id.valueText);
         mKeyField = (EditText) findViewById(R.id.keyText);
