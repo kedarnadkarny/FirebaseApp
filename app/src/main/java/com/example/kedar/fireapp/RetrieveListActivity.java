@@ -23,7 +23,7 @@ public class RetrieveListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_retrieve_list);
 
-        mRef = new Firebase("https://fireapp-ec4de.firebaseio.com/Users");
+        mRef = new Firebase("YOUR_FIREBASE_DATABASE_LINK/Users");
         mListView = (ListView) findViewById(R.id.listView);
 
         final ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, mUsernames);
